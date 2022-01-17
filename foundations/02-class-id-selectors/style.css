@@ -1,0 +1,32 @@
+.odd {
+    background-color: pink;
+    font-family: Verdana, 'DejaVU Sans', 'sans-serif';
+}
+
+.special {
+    font-size: 24px;
+}
+
+#two {
+    color: blue;
+    font-size: 18px;
+}
+
+#four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*
+
+
+
+
+* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
+
+### Self Check
+- Do the odd numbered `p` elements share a class?
+- Do the even numbered `div` elements have unique IDs?
+- Does the Number 3 element have multiple classes?
+-->
