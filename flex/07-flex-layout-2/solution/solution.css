@@ -27,7 +27,7 @@ body {
   border-radius: 4px;
 }
 
-/* SOLUTION */
+/* 
 
 body {
   display: flex;
@@ -85,3 +85,5 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+SOLUTION */
