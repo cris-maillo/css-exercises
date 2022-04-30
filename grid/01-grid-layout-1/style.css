@@ -3,11 +3,22 @@ body, html {
   margin: 0;
 }
 
+/* ### Self Check
+- The first column is three times larger than the other
+- The third row is five times larger than the others
+- The header and footer elements span across both columns
+- The sidebar element only spans across the first column
+- The nav and article elements span across the second column */
+
+
 .container {
   text-align: center;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  gap: 15px;
+  grid-template: 100px 100px 300px 100px /  300px 900px;
 }
 
 .container div {
@@ -21,10 +32,12 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+  grid-column: 1 / span 2;
 }
 
 .sidebar {
   background-color: #FF7755;
+  grid-row: 2 / span 2;
 }
 
 .nav {
@@ -44,4 +57,5 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  grid-column: 1 / span 2;
 }
